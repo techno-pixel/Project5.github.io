@@ -1,7 +1,5 @@
 // JavaScript Document
 
-/* Using XMLHTTPRequest API */
-
 let reviewChoose = document.querySelector('select'); 
 let reviewDisplay = document.getElementById('review'); 
 
@@ -12,7 +10,6 @@ reviewChoose.onchange = function() {
   
   
   function updateReview(review) {
-    review = review.replace(' ', ''); 
     review = review.toLowerCase(); 
     let url = review + '.txt'; 
     
