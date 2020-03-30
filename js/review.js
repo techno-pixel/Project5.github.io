@@ -20,5 +20,5 @@ reviewChoose.onchange = function() {
       });
   }
   
-  updateReview('Review 1'); 
-  reviewChoose.value = 'Review 1'; 
+  updateReview('City'); 
+  reviewChoose.value = 'City'; 
