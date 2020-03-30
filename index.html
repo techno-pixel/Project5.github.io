@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 3 Project</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet" media="screen">
+    <script src="js/gallery.js"></script>
+    <script src="js/main.js" async></script>
+    <script src="js/review.js" async></script>
+</head>
+<body id="home">
+    <main>
+        <div class="centerdiv">
+
+            <!-- because cats are the best and all these properties have em -->
+            <h2>CatBnB</h2>
+            <!-- the divs used to separate the image and the text equally -->
+            <div id="box">              
+                <div id="content">
+                    <h1>View Selection:</h1>
+                    <p class="content" id="describe"></p>
+
+                    <!-- All my images and anchors are here -->
+                    <ul id="imagegallery">
+                        <li>
+                            <a href="img/city.jpg" id="city" title="City">City</a>
+                        </li>
+                        <li>
+                            <a href="img/suburban.jpg" id="suburbia" title="Suburban!">Suburbia</a>
+                        </li>
+                        <li>
+                            <a href="img/villa.jpg" id="villa" title="Villa">Villa</a>
+                        </li>
+                        <li>
+                            <a href="img/woods.jpg" id="nature" title="Woods">Nature</a>
+                        </li>
+                    </ul>
+                </div
+
+                <!-- the placeholder is how the whole thing comes together, it gets replaced  -->
+                <div id="photo">
+                    <img id="placeholder" src="img/woods.jpg" alt="View of our room">
+                </div>
+            </div>
+            <form>
+                <label for="review-choose">Choose a location to see the review</label>
+                <select id="review-choose" name="review-choose">
+                  <option>City</option>
+                  <option>Suburbia</option>
+                  <option>Villa</option>
+                  <option>Nature</option>
+                </select>
+            </form>
+
+            <p id="review">
+
+            </p>
+        </div>
+    </main>
+    <footer>
+        <!-- pretty useless back to top but hey you might use it -->
+        <small>JadBnB - 200340278 - COMP1073</small><br>
+        <small><a href="#home">Back to top</a></small>
+    </footer>
+</body>
+</html>
