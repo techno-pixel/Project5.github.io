@@ -15,8 +15,8 @@ function initMap()
     
     //create new map object
     let map = new google.maps.Map(div, {
-      zoom: 15,
-      center: new google.maps.LatLng(43.7183953,-79.6582375),
+      zoom: 3,
+      center: new google.maps.LatLng(32.5609322,-88.9241018),
       mapTypeId: google.maps.MapTypeId.ROADMAP,
       // creates a black dark mode type, created custom
       // using https://mapstyle.withgoogle.com/
@@ -213,7 +213,7 @@ function initMap()
     // a new marker object
     for (var i = 0; i < locations.length; i++) {  
         var marker = new google.maps.Marker({
-          position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+          position: new google.maps.LatLng(locations[i][1], locations[i][2], locations[i][3], locations[i][4]),
           map: map
         });
     
