@@ -2,7 +2,7 @@
 
 function initMap() 
 {
-    // set my locations in an array to display two markers
+    // set my locations in an array to display four markers
     var locations = [
         ['suburbia', 44.3497789,-79.727307],
         ['city', 43.7183953,-79.6582375],

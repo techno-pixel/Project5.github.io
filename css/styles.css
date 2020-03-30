@@ -159,9 +159,11 @@ footer a {
 
 /* Set the size of the div element that contains the map */
 #map {
-    width: 100%; /*width of the parent - article element */ 
+    width: 70%; /*width of the parent - article element */ 
     height: 100%; /*height of the parent - article element */ 
     background-color: grey;
+    margin-left: 150px;
+    margin-top: -150px;
   }
   
 
